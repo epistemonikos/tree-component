@@ -229,11 +229,10 @@ function getGlobalOffset(dropTarget: HTMLElement) {
   return offset
 }
 
-function getDropPosition(pageY: number, offsetTop: number, offsetHeight: number) {
-  const top = pageY - offsetTop
-  if (top < offsetHeight / 3) {
+function getDropPosition(offsetY: number, offsetTop: number, offsetHeight: number) {
+  if (offsetY < offsetHeight / 3) {
     return DropPosition.up
-  } else if (top > offsetHeight * 2 / 3) {
+  } else if (offsetY > offsetHeight * 2 / 3) {
     return DropPosition.down
   } else {
     return DropPosition.inside

@@ -173,7 +173,7 @@ export class Tree<T> extends Vue {
     if (!this.canDrop(event)) {
       return
     }
-    common.ondrag(event.pageY, this.dragTarget, this.dropTarget, this.data, this.dropAllowed)
+    common.ondrag(event.offsetY, this.dragTarget, this.dropTarget, this.data, this.dropAllowed)
     event.preventDefault()
   }
   ondragenter(event: DragEvent) {
@@ -181,7 +181,7 @@ export class Tree<T> extends Vue {
       return
     }
     this.dropTarget = this.getAnchor(event.target as HTMLElement)
-    common.ondrag(event.pageY, this.dragTarget, this.dropTarget, this.data, this.dropAllowed)
+    common.ondrag(event.offsetY, this.dragTarget, this.dropTarget, this.data, this.dropAllowed)
   }
   ondragleave(event: DragEvent) {
     if (!this.canDrop(event)) {
