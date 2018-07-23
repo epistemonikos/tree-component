@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plantain-00/tree-component.git"
+    "url": "git+https://github.com/epistemonikos/tree-component.git"
   },
   "author": "York Yao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plantain-00/tree-component/issues"
+    "url": "https://github.com/epistemonikos/tree-component/issues"
   },
-  "homepage": "https://github.com/plantain-00/tree-component#readme",
+  "homepage": "https://github.com/epistemonikos/tree-component#readme",
   "devDependencies": {
     "@angular/compiler": "5.2.10",
     "@angular/compiler-cli": "5.2.10",
