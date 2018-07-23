@@ -1,19 +1,19 @@
 {
-  "name": "tree-component",
-  "version": "5.3.2",
+  "name": "tree-component-episte",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A reactjs, angular and vuejs tree component.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plantain-00/tree-component.git"
+    "url": "git+https://github.com/epistemonikos/tree-component.git"
   },
   "author": "York Yao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plantain-00/tree-component/issues"
+    "url": "https://github.com/epistemonikos/tree-component/issues"
   },
-  "homepage": "https://github.com/plantain-00/tree-component#readme",
+  "homepage": "https://github.com/epistemonikos/tree-component#readme",
   "files": [
     "dist"
   ],

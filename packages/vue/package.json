@@ -1,6 +1,6 @@
 {
   "name": "tree-vue-component-episte",
-  "version": "5.3.3",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/tree-vue-component.min.js",
@@ -21,7 +21,7 @@
     "dist"
   ],
   "dependencies": {
-    "tree-component": "^5.3.2",
+    "tree-component-episte": "^1.0.0",
     "vue": "2",
     "vue-class-component": "6"
   },
