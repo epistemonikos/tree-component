@@ -3,7 +3,7 @@ import Component from 'vue-class-component'
 // tslint:disable:no-duplicate-imports
 import '../dist/'
 import { ContextMenuData, getNodeFromPath, EventData, DropData, TreeData } from '../dist/'
-import { data, clearSelectionOfTree, toggle, setSelectionOfTree, setParentsSelection, move, canMove, setContextMenu, Value } from 'tree-component/demo/'
+import { data, clearSelectionOfTree, toggle, setSelectionOfTree, setParentsSelection, move, canMove, setContextMenu, Value } from 'tree-component-episte/demo/'
 
 @Component({
   template: `<button @click="click()">delete</button>`,

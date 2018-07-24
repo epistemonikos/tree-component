@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
-import * as common from 'tree-component'
-export * from 'tree-component'
+import * as common from 'tree-component-episte'
+export * from 'tree-component-episte'
 import { nodeTemplateHtml, nodeTemplateHtmlStatic, treeTemplateHtml, treeTemplateHtmlStatic } from './variables'
 
 @Component({
